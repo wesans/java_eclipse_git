@@ -17,7 +17,7 @@ public class DriverExample {
 	if( bus instanceof Vehicle) {
 		System.out.println("bus instanceof Vehicle.");
 	} else {
-		System.out.println("bus NOT instanceof Bus.");
+		System.out.println("bus NOT instanceof Vehicle.");
 		}
 	}
 }
