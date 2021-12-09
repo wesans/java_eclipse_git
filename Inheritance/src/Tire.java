@@ -11,7 +11,7 @@ public class Tire {
 		this.location = location;
 	}
 	
-	boolean roll() {
+	public boolean roll() {
 		++pastRotation;
 		if(pastRotation<maxRotation) {
 			System.out.println("Tire 남은수명: "+(maxRotation-pastRotation)+"회");
