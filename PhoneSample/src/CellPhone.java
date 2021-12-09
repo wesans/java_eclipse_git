@@ -1,0 +1,18 @@
+
+public class CellPhone extends Phone {
+
+	public CellPhone(String owner) {
+		super(owner);
+	}
+	public void YoutubeSearch() {
+		System.out.println("À¯Æ©ºê °Ë»öÀ» ÇÕ´Ï´Ù.");
+	}
+	@Override
+	public void turnOn() {
+		System.out.println("¼¿·ê·¯Æù Àü¿øÀ» Åµ´Ï´Ù.");
+	}
+	@Override
+	public void turnOff() {
+		System.out.println("¼¿·ê·¯Æù Àü¿øÀ» ²ü´Ï´Ù.");
+	}
+}
